@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="euBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021845"/>
+      <stop offset="100%" stop-color="#0a2a6e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadowGdpr" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="420" rx="16" fill="url(#euBg)"/>
+
+  <!-- Title -->
+  <text x="480" y="45" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#f8fafc" text-anchor="middle">
+    Стандарти Європейського Союзу: Хартія ЄС та GDPR
+  </text>
+  <text x="480" y="72" font-family="system-ui, sans-serif" font-size="13" fill="#93c5fd" text-anchor="middle">
+    Від внутрішнього ринку до статусу автономного фундаментального права
+  </text>
+
+  <!-- Left Column: Charter 2000 -->
+  <g transform="translate(50, 100)" filter="url(#shadowGdpr)">
+    <rect width="390" height="280" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect width="390" height="48" rx="14" fill="#0284c7" fill-opacity="0.3"/>
+    
+    <text x="25" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Хартія основних прав ЄС (2000 р.)</text>
+    <text x="365" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#fbbf24" text-anchor="end">Конституційний рівень</text>
+
+    <!-- Art 7 -->
+    <rect x="20" y="65" width="350" height="85" rx="8" fill="#1e293b"/>
+    <text x="35" y="88" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#93c5fd">Стаття 7: Повага до приватного життя</text>
+    <text x="35" y="108" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Повага до приватного та сімейного життя;</text>
+    <text x="35" y="126" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Недоторканність житла та таємниця спілкування.</text>
+
+    <!-- Art 8 -->
+    <rect x="20" y="165" width="350" height="95" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+    <text x="35" y="188" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">Стаття 8: Захист персональних даних</text>
+    <text x="35" y="208" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Окреме, автономне фундаментальне право;</text>
+    <text x="35" y="226" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Належна мета + згода особи або законна основа;</text>
+    <text x="35" y="244" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Право доступу, виправлення помилок + нагляд органу.</text>
+  </g>
+
+  <!-- Right Column: GDPR -->
+  <g transform="translate(480, 100)" filter="url(#shadowGdpr)">
+    <rect width="430" height="280" rx="14" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <rect width="430" height="48" rx="14" fill="#059669" fill-opacity="0.3"/>
+
+    <text x="25" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">GDPR (Регламент (ЄС) 2016/679)</text>
+    <text x="405" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#34d399" text-anchor="end">Діє з 25.05.2018</text>
+
+    <!-- 4 Features grid -->
+    <g transform="translate(20, 65)">
+      <!-- Feature 1 -->
+      <rect x="0" y="0" width="190" height="85" rx="8" fill="#1e293b"/>
+      <text x="15" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#34d399">Пряма дія</text>
+      <text x="15" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">Загальнообов'язковий у всіх</text>
+      <text x="15" y="59" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">країнах ЄС без потреби</text>
+      <text x="15" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">внутрішніх законів.</text>
+
+      <!-- Feature 2 -->
+      <rect x="200" y="0" width="190" height="85" rx="8" fill="#1e293b"/>
+      <text x="215" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#34d399">Екстериторіальність</text>
+      <text x="215" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">Діє на компанії з будь-якої</text>
+      <text x="215" y="59" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">точки світу, якщо обслуговують</text>
+      <text x="215" y="74" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">або моніторять людей в ЄС.</text>
+
+      <!-- Feature 3 -->
+      <rect x="0" y="95" width="190" height="95" rx="8" fill="#1e293b"/>
+      <text x="15" y="119" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#34d399">Нові права суб'єктів</text>
+      <text x="15" y="139" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">• Право бути забутим</text>
+      <text x="15" y="154" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">• Право на перенесення</text>
+      <text x="15" y="169" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">• Захист від автопрофілювання</text>
+
+      <!-- Feature 4 -->
+      <rect x="200" y="95" width="190" height="95" rx="8" fill="#1e293b" stroke="#ef4444" stroke-width="1"/>
+      <text x="215" y="119" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f87171">Гігантські штрафи</text>
+      <text x="215" y="139" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">До 20 000 000 €</text>
+      <text x="215" y="156" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">або до 4% світового</text>
+      <text x="215" y="171" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">річного обороту компанії.</text>
+    </g>
+  </g>
+</svg>

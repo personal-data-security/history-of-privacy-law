@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stepGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="stepGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="stepGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="320" rx="14" fill="#0b1329"/>
+
+  <!-- Title -->
+  <text x="450" y="38" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#f8fafc" text-anchor="middle">
+    Трискладовий тест правомірності втручання держави (ч. 2 ст. 8 ЄКПЛ)
+  </text>
+  <text x="450" y="60" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">
+    Будь-яке обмеження права на приватність є порушенням Конвенції, якщо не проходить усі 3 критерії:
+  </text>
+
+  <!-- Step 1 -->
+  <g transform="translate(30, 85)" filter="url(#boxShadow)">
+    <rect width="260" height="205" rx="12" fill="url(#stepGrad1)" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="35" cy="35" r="16" fill="#3b82f6"/>
+    <text x="35" cy="41" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="65" y="41" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Згідно із законом</text>
+    
+    <text x="20" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#93c5fd">«In accordance with the law»</text>
+    <text x="20" y="105" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Національний закон має бути</text>
+    <text x="28" y="122" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">доступним (accessible);</text>
+    <text x="20" y="145" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Закон має бути чітким та</text>
+    <text x="28" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">передбачуваним (foreseeable);</text>
+    <text x="20" y="185" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Заборона свавілля влади.</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(320, 85)" filter="url(#boxShadow)">
+    <rect width="260" height="205" rx="12" fill="url(#stepGrad2)" stroke="#0ea5e9" stroke-width="1.5"/>
+    <circle cx="35" cy="35" r="16" fill="#0ea5e9"/>
+    <text x="35" cy="41" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="65" y="41" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Легітимна мета</text>
+
+    <text x="20" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7dd3fc">«Legitimate aim»</text>
+    <text x="20" y="105" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Вичерпний перелік цілей ст. 8(2):</text>
+    <text x="20" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Нац. та громадська безпека;</text>
+    <text x="20" y="145" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Економічний добробут країни;</text>
+    <text x="20" y="165" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Запобігання злочинам;</text>
+    <text x="20" y="185" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">• Захист здоров'я/моралі/прав.</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(610, 85)" filter="url(#boxShadow)">
+    <rect width="260" height="205" rx="12" fill="url(#stepGrad3)" stroke="#14b8a6" stroke-width="1.5"/>
+    <circle cx="35" cy="35" r="16" fill="#14b8a6"/>
+    <text x="35" cy="41" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="65" y="41" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Необхідно в суспільстві</text>
+
+    <text x="20" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#5eead4">«Necessary in a democratic society»</text>
+    <text x="20" y="105" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Нагальна суспільна потреба</text>
+    <text x="28" y="122" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">(pressing social need);</text>
+    <text x="20" y="145" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">• Пропорційність втручання</text>
+    <text x="28" y="162" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" font-weight="600">(proportionality);</text>
+    <text x="20" y="185" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">Баланс інтересів особи й держави.</text>
+  </g>
+</svg>

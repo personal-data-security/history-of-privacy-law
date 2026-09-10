@@ -1,5 +1,13 @@
-# Course materials & proprietary files
-*.pdf
+# Course lecture materials
+Захист ПД_Лекція 1.pdf
+slides_5_6_7_privacy_data_protection.pdf
+
+# Previews & temporary files
+preview/
+preview_1_4/
+preview_5_6_7/
+preview_light/
+__pycache__/
 
 # Temporary and editor files
 .DS_Store

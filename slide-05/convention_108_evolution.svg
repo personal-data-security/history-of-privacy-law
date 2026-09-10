@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="380" rx="14" fill="url(#bgBox)"/>
+
+  <text x="480" y="45" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">
+    Еволюція спеціального захисту персональних даних у Раді Європи
+  </text>
+  <text x="480" y="70" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">
+    Від перших комп'ютерних баз даних 1970-х років до регулювання штучного інтелекту 2024 року
+  </text>
+
+  <!-- Horizontal connector line -->
+  <line x1="120" y1="180" x2="840" y2="180" stroke="#334155" stroke-width="4" stroke-dasharray="8 6"/>
+
+  <!-- Milestone 1: 1970/1973 First National Laws -->
+  <g transform="translate(140, 180)">
+    <circle cx="0" cy="0" r="22" fill="url(#c1)" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="5" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">1970s</text>
+    
+    <!-- Top card -->
+    <rect x="-105" y="-120" width="210" height="95" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="0" y="-98" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#fbbf24" text-anchor="middle">Перші нац. закони</text>
+    <text x="0" y="-78" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">• 1970: Земля Гессен (ФРН)</text>
+    <text x="0" y="-60" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">• 1973: Швеція (Datalagen)</text>
+    <text x="0" y="-42" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Реакція на появу ЕОМ</text>
+  </g>
+
+  <!-- Milestone 2: 1981 Convention 108 -->
+  <g transform="translate(380, 180)">
+    <circle cx="0" cy="0" r="26" fill="url(#c2)" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="6" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">1981</text>
+    
+    <!-- Bottom card -->
+    <rect x="-115" y="45" width="230" height="110" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="0" y="70" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#38bdf8" text-anchor="middle">Конвенція № 108 РЄ</text>
+    <text x="0" y="90" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#f8fafc" text-anchor="middle">1-й міжнародний договір</text>
+    <text x="0" y="108" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">• Базові принципи обробки</text>
+    <text x="0" y="124" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">• Транскордонні потоки даних</text>
+    <text x="0" y="140" font-family="system-ui, sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">28 січня = День захисту даних</text>
+  </g>
+
+  <!-- Milestone 3: 2018 Convention 108+ -->
+  <g transform="translate(620, 180)">
+    <circle cx="0" cy="0" r="24" fill="url(#c3)" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="6" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">2018</text>
+    
+    <!-- Top card -->
+    <rect x="-110" y="-120" width="220" height="95" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="-98" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#34d399" text-anchor="middle">Конвенція 108+</text>
+    <text x="0" y="-78" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">• Нові чутливі дані (біометрія)</text>
+    <text x="0" y="-60" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">• Обов'язок звітувати про витоки</text>
+    <text x="0" y="-42" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Privacy by Design / Default</text>
+  </g>
+
+  <!-- Milestone 4: 2024 AI Convention -->
+  <g transform="translate(830, 180)">
+    <circle cx="0" cy="0" r="22" fill="#8b5cf6" stroke="#ffffff" stroke-width="2"/>
+    <text x="0" y="5" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">2024</text>
+    
+    <!-- Bottom card -->
+    <rect x="-105" y="45" width="210" height="95" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="0" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#c4b5fd" text-anchor="middle">Конвенція РЄ про ШІ</text>
+    <text x="0" y="90" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">• Стаття 11: захист даних</text>
+    <text x="0" y="108" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">в життєвому циклі систем ШІ</text>
+    <text x="0" y="126" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Перший глобальний договір</text>
+  </g>
+</svg>

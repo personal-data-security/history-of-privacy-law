@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#172554" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#022c22" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="480" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#f8fafc" text-anchor="middle">
+    Концептуальне розмежування понять
+  </text>
+  <text x="480" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94a3b8" text-anchor="middle">
+    Право на приватність ≠ Захист персональних даних
+  </text>
+
+  <!-- Card 1: Right to Privacy -->
+  <g transform="translate(60, 115)" filter="url(#shadow)">
+    <rect width="380" height="375" rx="16" fill="url(#cardGrad1)" stroke="#3b82f6" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect width="380" height="55" rx="16" fill="#1d4ed8" fill-opacity="0.5"/>
+    <circle cx="35" cy="28" r="14" fill="#3b82f6"/>
+    <text x="35" cy="33" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="60" y="34" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Право на приватність</text>
+
+    <!-- Subtitle badge -->
+    <rect x="25" y="70" width="160" height="24" rx="12" fill="#2563eb" fill-opacity="0.4"/>
+    <text x="105" y="86" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#93c5fd" text-anchor="middle">Негативне право (Negative right)</text>
+
+    <!-- Core essence -->
+    <text x="25" y="120" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">«Право бути залишеним у спокої»</text>
+    <text x="25" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Захист від несанкціонованого втручання</text>
+    <text x="25" y="156" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">в особисту сферу з боку влади та третіх осіб.</text>
+
+    <!-- 4 Components -->
+    <text x="25" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#60a5fa">4 види приватності (за лекцією):</text>
+    
+    <circle cx="35" cy="225" r="4" fill="#60a5fa"/>
+    <text x="48" y="229" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Тілесна:</tspan> фізична недоторканність</text>
+
+    <circle cx="35" cy="255" r="4" fill="#60a5fa"/>
+    <text x="48" y="259" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Територіальна:</tspan> недоторканність житла/офісу</text>
+
+    <circle cx="35" cy="285" r="4" fill="#60a5fa"/>
+    <text x="48" y="289" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Комунікаційна:</tspan> таємниця листування і розмов</text>
+
+    <circle cx="35" cy="315" r="4" fill="#60a5fa"/>
+    <text x="48" y="319" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Інформаційна:</tspan> режим відомостей про людину</text>
+
+    <!-- Footer anchor -->
+    <rect x="25" y="340" width="330" height="24" rx="6" fill="#1e293b" fill-opacity="0.8"/>
+    <text x="190" y="356" font-family="system-ui, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle">Нормативний якір: ст. 12 ЗДПЛ, ст. 8 ЄКПЛ, ст. 7 Хартії ЄС</text>
+  </g>
+
+  <!-- VS circle -->
+  <g transform="translate(480, 302)">
+    <circle cx="0" cy="0" r="26" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
+    <text x="0" y="6" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#f59e0b" text-anchor="middle">VS</text>
+  </g>
+
+  <!-- Card 2: Data Protection -->
+  <g transform="translate(520, 115)" filter="url(#shadow)">
+    <rect width="380" height="375" rx="16" fill="url(#cardGrad2)" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect width="380" height="55" rx="16" fill="#047857" fill-opacity="0.5"/>
+    <circle cx="35" cy="28" r="14" fill="#10b981"/>
+    <text x="35" cy="33" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="60" y="34" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Захист персональних даних</text>
+
+    <!-- Subtitle badge -->
+    <rect x="25" y="70" width="160" height="24" rx="12" fill="#059669" fill-opacity="0.4"/>
+    <text x="105" y="86" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#6ee7b7" text-anchor="middle">Позитивне право (Positive right)</text>
+
+    <!-- Core essence -->
+    <text x="25" y="120" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">«Право на контроль над даними»</text>
+    <text x="25" y="140" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Встановлення обов'язкових правил обробки</text>
+    <text x="25" y="156" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">будь-яких даних ідентифікованої фізичної особи.</text>
+
+    <!-- Key principles -->
+    <text x="25" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#34d399">Ключові гарантії та вимоги:</text>
+    
+    <circle cx="35" cy="225" r="4" fill="#34d399"/>
+    <text x="48" y="229" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Законність та мета:</tspan> згода або законна основа</text>
+
+    <circle cx="35" cy="255" r="4" fill="#34d399"/>
+    <text x="48" y="259" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Прозорість:</tspan> обов'язок інформувати про обробку</text>
+
+    <circle cx="35" cy="285" r="4" fill="#34d399"/>
+    <text x="48" y="289" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Права суб'єкта:</tspan> доступ, виправлення, забуття</text>
+
+    <circle cx="35" cy="315" r="4" fill="#34d399"/>
+    <text x="48" y="319" font-family="system-ui, sans-serif" font-size="12" fill="#e2e8f0"><tspan font-weight="600">Інституційний нагляд:</tspan> незалежний регулятор</text>
+
+    <!-- Footer anchor -->
+    <rect x="25" y="340" width="330" height="24" rx="6" fill="#1e293b" fill-opacity="0.8"/>
+    <text x="190" y="356" font-family="system-ui, sans-serif" font-size="11" fill="#6ee7b7" text-anchor="middle">Нормативний якір: Конвенція 108, ст. 8 Хартії ЄС, GDPR</text>
+  </g>
+</svg>
